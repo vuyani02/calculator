@@ -37,7 +37,7 @@
 }
 .word-1{
     color: yellow;
-    font-size: 12px;
+    font-size: 11px;
     position: relative;
 }
 .word-2{
@@ -48,4 +48,5 @@
     border: 1px solid yellow;
     width: 6px;
     height: 6px;
+    border-radius: 1px;
 }

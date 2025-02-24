@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.css">
     <title>Calculator</title>
-</
+</head>
 <body>
     <div class="boader">
         <div class="top">RAD NORM <span> M <i class="fas fa-caret-down"></i></span> MATH DECI</div>
@@ -53,15 +53,63 @@
         <span class="word-1" style="position: absolute; left: 84.8%; top: 36.5%;">e</span>
         <span class="box" style="position: absolute; left: 86%; top: 36.2%;"></span>
 
-        <button class="buttons-1" style="position: absolute; left: 0.7%; top: 38.5%;"></button>
-        <button class="buttons-1" style="position: absolute; left: 17.3%; top: 38.5%;">&#8747;dx</button>
-        <button class="buttons-1" style="position: absolute; top: 38.5%; left: 33.7%;"><i
-                class="fas fa-caret-up fa-2x"></i></button>
-        <button class="buttons-1" style="position: absolute; top: 38.5%; left: 50.4%;"><i
-                class="fas fa-caret-down fa-2x"></i></button>
+        <button class="buttons-1" style="position: absolute; left: 0.7%; top: 38.5%;"><div class="box" style="position: absolute; left: 45%; top: 25%; width: 12px; height: 8px; border: none; background-color: white;"></div>
+        <div class="box"
+            style="position: absolute; left: 44%; top: 50%; width: 15.3px; height: 1px; border: none; background-color: white; border-radius: 1px;">
+        </div>
+        <div class="box"
+            style="position: absolute; left: 45%; top: 56%; width: 12px; height: 8px; border: none; background-color: white;">
+        </div>
+        </button>
+        <button class="buttons-1" style="position: absolute; left: 17.3%; top: 38.5%;"><span style="position: absolute; top: 30%; left: 33.7%;">&Sqrt;</span> <span class="box" style="position: absolute; left: 45.2%; top: 35%; width: 12px; height: 13px; border: none; background-color: white;"></span></button>
+        <button class="buttons-1" style="position: absolute; top: 38.5%; left: 33.7%;">x <sup>2</sup></button>
+        <button class="buttons-1" style="position: absolute; top: 38.5%; left: 50.4%;">x <span class="box" style="position: absolute; left: 57%; top: 21%; border-color: white;"></span></button>
         <button class="buttons-1"
-            style="letter-spacing: 4.5px; position: absolute; left: 67%; top: 38.5%;">x<sup>-1</sup></button>
-        <button class="buttons-1" style="position: absolute; left: 83.5%; top: 38.5%;">Log<sub>a</sub>x</button>
+            style="letter-spacing: 4.5px; position: absolute; left: 67%; top: 38.5%;">Log</button>
+        <button class="buttons-1" style="position: absolute; left: 83.5%; top: 38.5%;">Ln</button>
+
+        <span class="word-1" style="position: absolute; left: 2%; top: 44%;">&ang;</span>
+        <span class="word-2 word-1" style="position: absolute; left: 14.3%; top: 43.9%; font-size: 12px;">a</span>
+        <span class="word-1" style="position: absolute; left: 18.5%; top: 44%;">FACT</span>
+        <span class="word-2" style="position: absolute; left: 31%; top: 44%; font-size: 12px;">b</span>
+        <span class="word-1" style="position: absolute; left: 35%; top: 44%;">Abs</span>
+        <span class="word-2" style="position: absolute; left: 47.5%; top: 43.4%;">c</span>
+        <span class="word-1" style="position: absolute; left: 51.7%; top: 43.6%;">Sin <sup>-1</sup></span>
+        <span class="word-2" style="position: absolute; left: 64.5%; top: 43.9%; font-size: 12px;">d</span>
+        <span class="word-1" style="position: absolute; left: 68.3%; top: 43.6%;">Cos <sup>-1</sup></span>
+        <span class="word-2" style="position: absolute; left: 80.8%; top: 43.9%; font-size: 12px;">e</span>
+        <span class="word-1" style="position: absolute; left: 84.8%; top: 43.6%;">Tan <sup>-1</sup></span>
+        <span class="word-2" style="position: absolute; left: 97.3%; top: 43.9%; font-size: 12px;">f</span>
+
+        <button class="buttons-1" style="position: absolute; left: 0.7%; top: 45.9%;">( - )</button>
+        <button class="buttons-1" style="position: absolute; left: 17.3%; top: 45.9%;">&deg; ' "</button>
+        <button class="buttons-1" style="position: absolute; top: 45.9%; left: 33.7%;">hyp</button>
+        <button class="buttons-1" style="position: absolute; top: 45.9%; left: 50.4%;">Sin</button>
+        <button class="buttons-1"
+            style="letter-spacing: 4.5px; position: absolute; left: 67%; top: 45.9%;">Cos</button>
+        <button class="buttons-1" style="position: absolute; left: 83.5%; top: 45.9%;">Tan</button>
+
+        <span class="word-1" style="position: absolute; left: 2%; top: 51.3%;">STO</span>
+        <span class="word-2 word-1" style="position: absolute; left: 11%; top: 51.2%; font-size: 12px;">CLRv</span>
+        <span class="word-1" style="position: absolute; left: 18.8%; top: 51.3%; font-style: italic;">i</span>
+        <span class="word-2" style="position: absolute; left: 29.7%; top: 51.2%; font-size: 12px;">Cot</span>
+        <span class="word-1" style="position: absolute; left: 35%; top: 51.3%;">%</span>
+        <span class="word-2" style="position: absolute; left: 44.6%; top: 50.8%; font-size: 12px;">Cot <sup>-1</sup></span>
+        <span class="word-1" style="position: absolute; left: 52%; top: 51.3%;">,</span>
+        <span class="word-2" style="position: absolute; left: 64.5%; top: 51.3%; font-size: 12px;">x</span>
+        <span class="word-1" style="position: absolute; left: 68.3%; top: 51.08%;">a<sup>b</sup>/c</span>
+        <span class="word-2" style="position: absolute; left: 80.8%; top: 51.3%; font-size: 12px;">y</span>
+        <span class="word-1" style="position: absolute; left: 84.8%; top: 51.3%;">M-</span>
+        <span class="word-2" style="position: absolute; left: 97.3%; top: 51.1%; font-size: 12px;">m</span>
+
+        <button class="buttons-1" style="position: absolute; left: 0.7%; top: 53%;">RCL</button>
+        <button class="buttons-1" style="position: absolute; left: 17.3%; top: 53%;">ENG</button>
+        <button class="buttons-1" style="position: absolute; top: 53%; left: 33.7%;">(</button>
+        <button class="buttons-1" style="position: absolute; top: 53%; left: 50.4%;">)</button>
+        <button class="buttons-1" style="letter-spacing: 4.5px; position: absolute; left: 67%; top: 53%;">S&RightArrowLeftArrow;D</button>
+        <button class="buttons-1" style="position: absolute; left: 83.5%; top: 53%;">M+</button>
+
+        
         
     </div>
 
