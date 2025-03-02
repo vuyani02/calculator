@@ -1,31 +1,28 @@
-.boader{
-    width: 560px;
-    height: 810px;
+body{
     background-color: black;
-    margin: 0% 5%;
-    border-radius: 10px;
     color: white;
-    position: relative;
 }
 .top{
     word-spacing: 10px;
     font-size: 12px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
-    left: 2%;
+    position: absolute;
+    left: 1%;
     top: 1%;
 }
 .screen{
-    background-color: white;
-    width: auto;
-    height: 20%;
-    margin: 10px 5px;
+    width: 98%;
+    height: 21%;
     border-radius: 10px;
-    background-color: #607560;
+    background-color: #b4bcd8;
+    position: absolute;
+    top: 3.5%;
+    left: 0.7;
+
 }
 .buttons-1{
-    width: 90px;
-    height: 40px;
+    width: 108.5px;
+    height: 50px;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 100;
@@ -56,7 +53,7 @@
     background-color: rgb(219, 163, 8);
     position: absolute;
     left: 0.7%;
-    top: 23.7%;
+    top: 24.9%;
 }
 
 .button-12{
@@ -94,13 +91,13 @@
 .word-11{
     position: absolute;
     left: 2%;
-    top: 29.4%;
+    top: 32%;
 }
 
 .word-12{
     position: absolute;
-    left: 14%;
-    top: 29%;
+    left: 12.8%;
+    top: 31.5%;
 }
 
 .word-13{
@@ -136,7 +133,7 @@
 .button-21{
     position: absolute;
     left: 0.7%;
-    top: 31.2%;
+    top: 34%;
 }
 
 .button-22{
@@ -173,19 +170,19 @@
 .word-21{
     position: absolute;
     left: 2%;
-    top: 36.75%;
+    top: 41%;
 }
 
 .word-22{
     position: absolute;
-    left: 12.6%;
-    top: 36.4%;
+    left: 11.6%;
+    top: 40.5%;
 }
 
 .word-23{
     position: absolute;
-    left: 14.3%;
-    top: 36.75%;
+    left: 12.8%;
+    top: 41%;
 }
 
 .word-24{
@@ -252,7 +249,7 @@
 .button-31{
     position: absolute;
     left: 0.7%;
-    top: 38.5%;
+    top: 43%;
 }
 .button-32{
     position: absolute;
@@ -339,13 +336,13 @@
 .word-31{
     position: absolute;
     left: 2%;
-    top: 44%;
+    top: 50%;
 }
 
 .word-32{
     position: absolute;
-    left: 14.3%;
-    top: 43.9%;
+    left: 12.8%;
+    top: 50%;
     font-size: 12px;
 }
 
@@ -416,7 +413,7 @@
 .button-41{
     position: absolute;
     left: 0.7%;
-    top: 45.9%;
+    top: 52%;
 }
 
 .button-42{
@@ -452,13 +449,13 @@
 .word-41{
     position: absolute;
     left: 2%;
-    top: 51.3%;
+    top: 59%;
 }
 
 .word-42{
     position: absolute;
-    left: 11%;
-    top: 51.2%;
+    left: 10%;
+    top: 59%;
     font-size: 12px;
 }
 
@@ -531,7 +528,7 @@
 .button-51{
     position: absolute;
     left: 0.7%;
-    top: 53%
+    top: 61%
 }
 
 .button-52{
@@ -577,7 +574,7 @@
 .word-51{
     position: absolute;
     left: 6.5%;
-    top: 58.5%;
+    top: 68%;
 }
 
 .word-52{
@@ -599,10 +596,10 @@
 }
 
 .buttons-2{
-    width: 108.5px;
-    height: 50px;
+    width: 130px;
+    height: 60px;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 100;
     background-color: rgb(14, 13, 13);
     color: white;
@@ -616,7 +613,7 @@
 .button-61{
     position: absolute;
     left: 0.7%;
-    top: 60.4%;
+    top: 70%;
 }
 
 .button-62{
@@ -646,7 +643,7 @@
 .word-61{
     position: absolute;
     left: 6.5%;
-    top: 66.75%;
+    top: 78.2%;
 }
 
 .word-62{
@@ -688,7 +685,7 @@
 .button-71{
     position: absolute;
     left: 0.7%;
-    top: 68.9%;
+    top: 80.3%;
 }
 
 .button-72{
@@ -718,7 +715,7 @@
 .word-71{
     position: absolute;
     left: 6.5%;
-    top: 75.2%;
+    top: 88.1%;
 }
 
 .word-72{
@@ -760,7 +757,7 @@
 .button-81{
     position: absolute;
     left: 0.7%;
-    top: 77.1%;
+    top: 90.3%;
 }
 
 .button-82{
@@ -790,79 +787,79 @@
 .word-81{
     position: absolute;
     left: 1.5%;
-    top: 83.35%;
+    top: 98%;
 }
 
 .word-82{
     position: absolute;
-    left: 13.1%;
-    top: 83.35%;
+    left: 12%;
+    top: 98%;
 }
 
 .word-83{
     position: absolute;
     left: 21.8%;
-    top: 83.35%;
+    top: 98%;
 }
 
 .word-84{
     position: absolute;
     left: 33.5%;
-    top: 83.35%;
+    top: 98%;
 }
 
 .word-85{
     position: absolute;
     left: 41.8%;
-    top: 83.35%;
+    top: 98%;
 }
 
 .word-86{
     position: absolute;
     left: 57.7%;
-    top: 83.35%;
+    top: 98%;
 }
 
 .word-87{
     position: absolute;
     left: 67%;
-    top: 83.35%;
+    top: 98%;
 }
 
 .word-88{
     position: absolute;
     left: 86.7%;
-    top: 83.35%;
+    top: 98%;
 }
 
 .button-91{
     position: absolute;
     left: 0.7%;
-    top: 85.1%;
+    top: 100%;
 }
 
 .button-92{
     position: absolute;
     left: 20.6%;
-    top: 85.1%;
+    top: 100%;
 }
 
 .button-93{
     position: absolute;
     left: 40.3%;
-    top: 85.1%;
+    top: 100%;
 }
 
 .button-94{
     position: absolute;
     left: 60.3%;
-    top: 85.1%;
+    top: 100%;
 }
 
 .button-95{
     position: absolute;
     left: 80.1%;
-    top: 85.1%;
+    top: 100%;
 }
 
 
