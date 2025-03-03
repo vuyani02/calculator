@@ -887,10 +887,10 @@ body{
 
 
         .buttons-1 {
-            width: 100px;
-            height: 50px;
+            width: 70px;
+            height: 30px;
             border-radius: 9px;
-            font-size: 20px;
+            font-size: 12px;
             font-weight: 100;
             letter-spacing: 1px;
             padding: 0.5px;
@@ -901,12 +901,12 @@ body{
     
         .word-1 {
             color: yellow;
-            font-size: 15px;
+            font-size: 10px;
         }
     
         .word-2 {
             color: rgb(167, 87, 167);
-            font-size: 15px;
+            font-size: 10px;
     
         }
     
