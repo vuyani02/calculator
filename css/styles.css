@@ -44,8 +44,8 @@ body{
 }
 .box{
     border: 1px solid yellow;
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
     border-radius: 1px;
 }
 
@@ -449,7 +449,7 @@ body{
 
 .word-41{
     position: absolute;
-    left: 2%;
+    left: 4%;
     top: 58%;
 }
 
@@ -462,7 +462,7 @@ body{
 
 .word-43{
     position: absolute;
-    left: 18.8%;
+    left: 16.8%;
     top: 58%;
     font-style: italic;
 }
@@ -476,7 +476,7 @@ body{
 
 .word-45{
     position: absolute;
-    left: 35%;
+    left: 33%;
     top: 58%;
 }
 
@@ -489,7 +489,7 @@ body{
 
 .word-47{
     position: absolute;
-    left: 52%;
+    left: 50%;
     top: 58%;
 }
 
@@ -502,7 +502,7 @@ body{
 
 .word-49{
     position: absolute;
-    left: 68.3%;
+    left: 66.3%;
     top: 58%;
 }
 
@@ -515,7 +515,7 @@ body{
 
 .word-411{
     position: absolute;
-    left: 84.8%;
+    left: 82.8%;
     top: 58%;
 }
 
@@ -865,6 +865,873 @@ body{
 
 
 @media screen and (min-width: 367px) {
+        .top {
+            word-spacing: 10px;
+            font-size: 12px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: absolute;
+            left: 1%;
+            top: 1%;
+            }
+
+        .screen {
+            width: 38.6%;
+            height: 25%;
+            border-radius: 10px;
+            background-color: #b4bcd8;
+            position: absolute;
+            top: 3.5%;
+            left: 0.7;
+        
+            }
+
+
+        .buttons-1 {
+            width: 100px;
+            height: 50px;
+            border-radius: 9px;
+            font-size: 20px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            padding: 0.5px;
+            margin: 2px 0px;
+            background-color: rgb(70, 66, 66);
+            color: white;
+        }
     
+        .word-1 {
+            color: yellow;
+            font-size: 15px;
+        }
+    
+        .word-2 {
+            color: rgb(167, 87, 167);
+            font-size: 15px;
+    
+        }
+    
+        .box {
+            border: 1px solid yellow;
+            width: 6px;
+            height: 6px;
+            border-radius: 1px;
+        }
+    
+        .button-11 {
+            color: black;
+            background-color: rgb(219, 163, 8);
+            position: absolute;
+            left: 39.8%;
+            top: 34.8%;
+        }
+    
+        .button-12 {
+            background-color: rgb(124, 39, 124);
+            position: absolute;
+            left: 45.6%;
+            top: 34.8%;
+        }
+    
+        .button-13 {
+            position: absolute;
+            top: 34.8%;
+            left: 51.4%;
+        }
+    
+        .button-14 {
+            position: absolute;
+            top: 34.8%;
+            left: 57.2%;
+        }
+    
+        .button-15 {
+            font-weight: 550;
+            position: absolute;
+            left: 63%;
+            top: 34.8%;
+        }
+    
+        .button-16 {
+            font-style: italic;
+            position: absolute;
+            left: 68.85%;
+            top: 34.8%;
+        }
+    
+        .word-11 {
+            position: absolute;
+            left: 40%;
+            top: 42%;
+        }
+    
+        .word-12 {
+            position: absolute;
+            left: 44.5%;
+            top: 42%;
+        }
+    
+        .word-13 {
+            position: absolute;
+            left: 46%;
+            top: 42%;
+        }
+    
+        .word-14 {
+            position: absolute;
+            left: 50.5%;
+            top: 42%;
+        }
+    
+        .word-15 {
+            position: absolute;
+            left: 65.5%;
+            top: 42%;
+        }
+    
+        .word-16 {
+            position: absolute;
+            left: 69.2%;
+            top: 42%;
+        }
+    
+        .word-17 {
+            position: absolute;
+            left: 73.5%;
+            top: 42%;
+        }
+    
+        .button-21 {
+            position: absolute;
+            left: 39.8%;
+            top: 44.9%;
+        }
+    
+        .button-22 {
+            position: absolute;
+            left: 45.6%;
+            top: 44.9%;
+        }
+    
+        .button-23 {
+            position: absolute;
+            top: 44.9%;
+            left: 51.4%;
+        }
+    
+        .button-24 {
+            position: absolute;
+            top: 44.9%;
+            left: 57.2%;
+        }
+    
+        .button-25 {
+            letter-spacing: 4.5px;
+            position: absolute;
+            left: 63%;
+            top: 44.9%;
+        }
+    
+        .button-26 {
+            position: absolute;
+            left: 68.85%;
+            top: 44.9%;
+        }
+    
+        .word-21 {
+            position: absolute;
+            left: 40%;
+            top: 52.3%;
+        }
+    
+        .word-22 {
+            position: absolute;
+            left: 44%;
+            top: 52.3%;
+        }
+    
+        .word-23 {
+            position: absolute;
+            left: 44.5%;
+            top: 52.3%;
+        }
+    
+        .word-24 {
+            position: absolute;
+            left: 47%;
+            top: 51.4%;
+            font-size: 13px;
+        }
+    
+        .word-25 {
+            position: absolute;
+            left: 47.3%;
+            top: 52.3%;
+        }
+    
+        .word-26 {
+            position: absolute;
+            left: 47.8%;
+            top: 52.8%;
+        }
+    
+        .word-27 {
+            position: absolute;
+            left: 51.8%;
+            top: 52.3%;
+        }
+    
+        .word-28 {
+            position: absolute;
+            left: 57.6%;
+            top: 52.3%;
+        }
+    
+        .word-29 {
+            position: absolute;
+            left: 58.15%;
+            top: 52.3%;
+        }
+    
+        .word-210 {
+            position: absolute;
+            left: 58.7%;
+            top: 52.7%
+        }
+    
+        .word-211 {
+            position: absolute;
+            left: 63.3%;
+            top: 52.3%;
+        }
+    
+        .word-212 {
+            position: absolute;
+            left: 69.2%;
+            top: 52.3%;
+        }
+    
+        .word-213 {
+            position: absolute;
+            left: 69.65%;
+            top: 52.3%;
+        }
+    
+        .button-31 {
+            position: absolute;
+            left: 39.8%;
+            top: 55%;
+        }
+    
+        .button-32 {
+            position: absolute;
+            left: 45%;
+            top: 55%;
+            width: 14px;
+            height: 12px;
+            border: none;
+            background-color: white;
+        }
+    
+        .button-33 {
+            position: absolute;
+            left: 42.5%;
+            top: 45%;
+            width: 19px;
+            height: 2px;
+            border: none;
+            background-color: white;
+        }
+    
+        .button-34 {
+            position: absolute;
+            left: 45%;
+            top: 12%;
+            width: 14px;
+            height: 12px;
+            border: none;
+            background-color: white;
+        }
+    
+        .button-35 {
+            position: absolute;
+            left: 45.6%;
+            top: 55%;
+        }
+    
+        .button-36 {
+            position: absolute;
+            left: 25%;
+            top: 34%;
+        }
+    
+        .button-37 {
+            position: absolute;
+            left: 38%;
+            top: 42%;
+            width: 14px;
+            height: 14px;
+            border: none;
+            background-color: white;
+        }
+    
+        .button-38 {
+            position: absolute;
+            left: 51.4%;
+            top: 55%;
+        }
+    
+        .button-39 {
+            position: absolute;
+            left: 57.2%;
+            top: 55%;
+        }
+    
+        .button-310 {
+            position: absolute;
+            left: 56%;
+            top: 30%;
+            border-color: white;
+        }
+    
+        .button-311 {
+            position: absolute;
+            left: 63%;
+            top: 55%;
+        }
+    
+        .button-312 {
+            position: absolute;
+            left: 68.85%;
+            top: 55%;
+        }
+    
+        .word-31 {
+            position: absolute;
+            left: 40%;
+            top: 61.6%;
+        }
+    
+        .word-32 {
+            position: absolute;
+            left: 44.5%;
+            top: 61.6%;
+            font-size: 15px;
+        }
+    
+        .word-33 {
+            position: absolute;
+            left: 46%;
+            top: 61.6%;
+        }
+    
+        .word-34 {
+            position: absolute;
+            left: 50.5%;
+            top: 61.6%;
+            font-size: 15px;
+        }
+    
+        .word-35 {
+            position: absolute;
+            left: 51.8%;
+            top: 61.6%;
+        }
+    
+        .word-36 {
+            position: absolute;
+            left: 56.3%;
+            top: 61.6%;
+        }
+    
+        .word-37 {
+            position: absolute;
+            left: 57.5%;
+            top: 61.6%;
+        }
+    
+        .word-38 {
+            position: absolute;
+            left: 62%;
+            top: 61.6%;
+            font-size: 15px;
+        }
+    
+        .word-39 {
+            position: absolute;
+            left: 63.3%;
+            top: 61.6%;
+        }
+    
+        .word-310 {
+            position: absolute;
+            left: 67.9%;
+            top: 61.6%;
+            font-size: 15px;
+        }
+    
+        .word-311 {
+            position: absolute;
+            left: 69.2%;
+            top: 61.6%;
+        }
+    
+        .word-312 {
+            position: absolute;
+            left: 73.5%;
+            top: 61.6%;
+            font-size: 15px
+        }
+    
+        .button-41 {
+            position: absolute;
+            left: 39.8%;
+            top: 64.6%;
+        }
+    
+        .button-42 {
+            position: absolute;
+            left: 45.6%;
+            top: 64.6%;
+        }
+    
+        .button-43 {
+            position: absolute;
+            top: 64.6%;
+            left: 51.4%;
+        }
+    
+        .button-44 {
+            position: absolute;
+            top: 64.6%;
+            left: 57.2%;
+        }
+    
+        .button-45 {
+            position: absolute;
+            left: 63%;
+            top: 64.6%;
+        }
+    
+        .button-46 {
+            position: absolute;
+            left: 68.85%;
+            top: 64.6%;
+        }
+    
+        .word-41 {
+            position: absolute;
+            left: 40%;
+            top: 72%;
+        }
+    
+        .word-42 {
+            position: absolute;
+            left: 43%;
+            top: 72%;
+            font-size: 15px;
+        }
+    
+        .word-43 {
+            position: absolute;
+            left: 46%;
+            top: 72%;
+            font-style: italic;
+        }
+    
+        .word-44 {
+            position: absolute;
+            left: 49.6%;
+            top: 72%;
+            font-size: 15px;
+        }
+    
+        .word-45 {
+            position: absolute;
+            left: 51.8%;
+            top: 72%;
+        }
+    
+        .word-46 {
+            position: absolute;
+            left: 54.8%;
+            top: 72%;
+            font-size: 15px;
+        }
+    
+        .word-47 {
+            position: absolute;
+            left: 57.5%;
+            top: 72%;
+        }
+    
+        .word-48 {
+            position: absolute;
+            left: 62%;
+            top: 72%;
+            font-size: 15px;
+        }
+    
+        .word-49 {
+            position: absolute;
+            left: 63.5%;
+            top: 72%;
+        }
+    
+        .word-410 {
+            position: absolute;
+            left: 67.9%;
+            top: 72%;
+            font-size: 15px;
+        }
+    
+        .word-411 {
+            position: absolute;
+            left: 69.2%;
+            top: 72%;
+        }
+    
+        .word-412 {
+            position: absolute;
+            left: 73.5%;
+            top: 72%;
+            font-size: 15px;
+        }
+    
+        .button-51 {
+            position: absolute;
+            left: 39.8%;
+            top: 74.9%
+        }
+    
+        .button-52 {
+            position: absolute;
+            left: 45.6%;
+            top: 74.9%;
+        }
+    
+        .button-53 {
+            position: absolute;
+            top: 74.9%;
+            left: 51.4%;
+        }
+    
+        .button-54 {
+            position: absolute;
+            top: 74.9%;
+            left: 57.2%;
+        }
+    
+        .button-55 {
+            position: absolute;
+            left: 63%;
+            top: 74.9%;
+        }
+    
+        .button-56 {
+            position: absolute;
+            left: 68.85%;
+            top: 74.9%;
+        }
+    
+        .word-3 {
+            font-size: 17px;
+            color: yellow;
+        }
+    
+        .word-4 {
+            font-size: 17px;
+            color: purple;
+        }
+    
+        .word-51 {
+            position: absolute;
+            left: 3%;
+            top: 31%;
+        }
+    
+        .word-52 {
+            position: absolute;
+            left: 11%;
+            top: 31%;
+        }
+    
+        .word-53 {
+            position: absolute;
+            left: 17%;
+            top: 31%;
+        }
+    
+        .word-54 {
+            position: absolute;
+            left: 22.5%;
+            top: 31%;
+        }
+    
+        .buttons-2 {
+            width: 130px;
+            height: 60px;
+            border-radius: 8px;
+            font-size: 35px;
+            font-weight: 100;
+            background-color: rgb(14, 13, 13);
+            color: white;
+        }
+    
+        .buttons-3 {
+            color: black;
+            background-color: rgb(253, 130, 29);
+        }
+    
+        .button-61 {
+            position: absolute;
+            left: 0.7%;
+            top: 35%;
+        }
+    
+        .button-62 {
+            position: absolute;
+            left: 8.5%;
+            top: 35%;
+        }
+    
+        .button-63 {
+            position: absolute;
+            left: 16.3%;
+            top: 35%;
+        }
+    
+        .button-64 {
+            position: absolute;
+            left: 24.1%;
+            top: 35%;
+        }
+    
+        .button-65 {
+            position: absolute;
+            left: 31.9%;
+            top: 35%;
+        }
+    
+        .word-61 {
+            position: absolute;
+            left: 2.5%;
+            top: 44%;
+        }
+    
+        .word-62 {
+            position: absolute;
+            left: 10.5%;
+            top: 44%;
+        }
+    
+        .word-63 {
+            position: absolute;
+            left: 18.5%;
+            top: 44%;
+        }
+    
+        .word-64 {
+            position: absolute;
+            left: 24.5%;
+            top: 44%;
+        }
+    
+        .word-65 {
+            position: absolute;
+            left: 29%;
+            top: 44%;
+        }
+    
+        .word-66 {
+            position: absolute;
+            left: 32.3%;
+            top: 44%;
+        }
+    
+        .word-67 {
+            position: absolute;
+            left: 36.7%;
+            top: 44%;
+        }
+    
+        .button-71 {
+            position: absolute;
+            left: 0.7%;
+            top: 48%;
+        }
+    
+        .button-72 {
+            position: absolute;
+            left: 8.5%;
+            top: 48%;
+        }
+    
+        .button-73 {
+            position: absolute;
+            left: 16.3%;
+            top: 48%;
+        }
+    
+        .button-74 {
+            position: absolute;
+            left: 24.1%;
+            top: 48%;
+        }
+    
+        .button-75 {
+            position: absolute;
+            left: 31.9%;
+            top: 48%;
+        }
+    
+        .word-71 {
+            position: absolute;
+            left: 3.2%;
+            top: 57%;
+        }
+    
+        .word-72 {
+            position: absolute;
+            left: 10.5%;
+            top: 57%;
+        }
+    
+        .word-73 {
+            position: absolute;
+            left: 18.5%;
+            top: 57%;
+        }
+    
+        .word-74 {
+            position: absolute;
+            left: 24.5%;
+            top: 57%;
+        }
+    
+        .word-75 {
+            position: absolute;
+            left: 29%;
+            top: 57%;
+        }
+    
+        .word-76 {
+            position: absolute;
+            left: 32.3%;
+            top: 57%;
+        }
+    
+        .word-77 {
+            position: absolute;
+            left: 36.7%;
+            top: 57%;
+        }
+    
+        .button-81 {
+            position: absolute;
+            left: 0.7%;
+            top: 61%;
+        }
+    
+        .button-82 {
+            position: absolute;
+            left: 8.5%;
+            top: 61%;
+        }
+    
+        .button-83 {
+            position: absolute;
+            left: 16.3%;
+            top: 61%;
+        }
+    
+        .button-84 {
+            position: absolute;
+            left: 24.1%;
+            top: 61%;
+        }
+    
+        .button-85 {
+            position: absolute;
+            left: 31.9%;
+            top: 61%;
+        }
+    
+        .word-81 {
+            position: absolute;
+            left: 1%;
+            top: 70%;
+        }
+    
+        .word-82 {
+            position: absolute;
+            left: 5%;
+            top: 70%;
+        }
+    
+        .word-83 {
+            position: absolute;
+            left: 9%;
+            top: 70%;
+        }
+    
+        .word-84 {
+            position: absolute;
+            left: 13%;
+            top: 70%;
+        }
+    
+        .word-85 {
+            position: absolute;
+            left: 17%;
+            top: 70%;
+        }
+    
+        .word-86 {
+            position: absolute;
+            left: 22.5%;
+            top: 70%;
+        }
+    
+        .word-87 {
+            position: absolute;
+            left: 26.5%;
+            top: 70%;
+        }
+    
+        .word-88 {
+            position: absolute;
+            left: 34%;
+            top: 70%;
+        }
+    
+        .button-91 {
+            position: absolute;
+            left: 0.7%;
+            top: 74%;
+        }
+    
+        .button-92 {
+            position: absolute;
+            left: 8.5%;
+            top: 74%;
+        }
+    
+        .button-93 {
+            position: absolute;
+            left: 16.3%;
+            top: 74%;
+        }
+    
+        .button-94 {
+            position: absolute;
+            left: 24.1%;
+            top: 74%;
+        }
+    
+        .button-95 {
+            position: absolute;
+            left: 31.9%;
+            top: 74%;
+        }
     
 }
